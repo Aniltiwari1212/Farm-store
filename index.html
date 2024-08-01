@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" type="image/x-icon" href="img//favicon.webp">
+    <!-- Bootstrap CSS -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" onload="this.onload=null;this.rel='stylesheet'">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+	<link href="css/responsive.css" type="text/css" rel="stylesheet">
+    <title>Lawsy Demo</title>
+  </head>
+<body>
+<header class="main-header">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/main-logo.png">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Practice Areas
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Practice Areas-1</a></li>
+              <li><a class="dropdown-item" href="#">Practice Areas-2</a></li>
+              <li><a class="dropdown-item" href="#">Practice Areas-3</a></li>
+              <li><a class="dropdown-item" href="#">Practice Areas-4</a></li>
+              <li><a class="dropdown-item" href="#">Practice Areas-5</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Blogs
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Blogs-1</a></li>
+              <li><a class="dropdown-item" href="#">Blogs-2</a></li>
+              <li><a class="dropdown-item" href="#">Blogs-3</a></li>
+              <li><a class="dropdown-item" href="#">Blogs-4</a></li>
+              <li><a class="dropdown-item" href="#">Blogs-5</a></li>
+              <li><a class="dropdown-item" href="#">Blogs-6</a></li>
+              <li><a class="dropdown-item" href="#">Blogs-7</a></li>
+              <li><a class="dropdown-item" href="#">Blogs-8</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Pages-1</a></li>
+              <li><a class="dropdown-item" href="#">Pages-2</a></li>
+              <li><a class="dropdown-item" href="#">Testomonial-1</a></li>
+              <li><a class="dropdown-item" href="#">Testomonial-2</a></li>
+              <li><a class="dropdown-item" href="#">Testomonial-3</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contact
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Contact-1</a></li>
+              <li><a class="dropdown-item" href="#">Contact-2</a></li>
+              <li><a class="dropdown-item" href="#">Contact-3</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="srch-box">
+          <div class="find-icon">
+            <i class='bx bx-search'></i>
+          </div>
+          <div class="menu-item">
+            <div id="mySidepanel" class="sidepanel">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+              <img src="img/main-logo.png">
+              <p>Revolutionize Your Future: Harness the Power of Technology for Unparalleled Growth and Success!</p>
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Clients</a>
+              <a href="#">Contact</a>
+            </div>
+            
+            <button class="openbtn" onclick="openNav()">☰</button>        
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<section class="banner">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+          <div class="welcomeheader-left">
+              <h4>We provide the experience you need</h4>
+              <h1>Trusted Tax <span>Attorneys</span> Solve Your Tax Issues</h1>
+              <p>With a track record of successfully resolving a tax-related issues, we're
+                committed to protecting your financial interests and helping achieve</p>
+                <div class="blue-btn">
+                    <a href="#">Download Tax Guides <i class='bx bx-chevron-right' ></i></a>
+                </div>
+          </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="welbannerRight">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <div class="banner-img4">
+                  <div class="rank">
+                    <img src="img/elementor15.png">
+                </div>
+                  <img src="img/header-img4.png">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="banner-img3">
+                  <img src="img/header-img3.png">
+              </div>
+              </div>
+              <div class="col-md-6">
+                <div class="banner-img5">
+                  <img src="img/header-img5.png">
+                  <div class="tax-lawyer">
+                      <img src="img/tax-text2.png">
+                  </div>
+              </div>
+              </div>
+              <div class="col-md-6">
+                <div class="banner-img6">
+                  <img src="img/header-img6.png">
+              </div>
+              </div>
+            </div>
+          </div>
+         
+         
+      
+     
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <div class="about-img">
+          <img src="img/about-img2.png">
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="counter-section">
+          <div class="counter-container">
+            <img src="img/calculator1.svg">
+            <div class="counter" data-target="98">%</div>
+            <span>Successful Client</span>
+          </div>
+        
+          <div class="counter-container">
+          <img src="img/tax-img2.svg">
+            <div class="counter" data-target="10000">+</div>
+            <span>Tax Return Filled</span>
+          </div>
+        
+          <div class="counter-container">
+           <img src="img/money-img1.svg">
+            <div class="counter" data-target="10000">+</div>
+            <span>Trade Value Filled</span>
+          </div>
+        
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="rightAbout-txt">
+          <h5 class="abt-title">About us</h5>
+          <h2>Protect Your Assets And Minimize Tax Liability</h2>
+          <p>Whether you're facing a tax audit, need assistance with tax compliance, or are looking for ways to maximize tax benefits.</p>
+          <p> Explore our website to learn more about our services and get to know our team of tax attorneys. When you're ready Lawyer.</p>
+          <ul>
+            <li>
+              <img src="img/check-img1.svg">
+              Range Of Services
+            </li>
+            <li>
+              <img src="img/check-img1.svg">
+              Online Recourses
+            </li>
+            <li>
+              <img src="img/check-img1.svg">
+              Professional Expertise
+            </li>
+            <li>
+              <img src="img/check-img1.svg">
+              Client Success Stories
+            </li>
+          </ul>
+          <div class="blue-btn about-Rbtn">
+            <a href="#">About us <i class="bx bx-chevron-right"></i></a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="our-services">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-4">
+        <div class="left-srvc">
+          <h5 class="abt-title">Our Services</h5>
+          <h2>Tax Resolution Starts Here</h2>
+          <p>Explore our website to learn more about our services and get to know our team of tax attorneys. When you're ready Lawyer.</p>
+          <div class="blue-btn about-Rbtn">
+            <a href="#">View Our Services <i class="bx bx-chevron-right"></i></a>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="srvcMain-box">
+                <div class="srvc-icon">
+                    <img src="img/tax-img3.svg">
+                </div>
+                <div class="srvc-detail">
+                    <h4><a href="#">Estate Planning & Taxation</a></h4>
+                    <p> From understanding the latest tax code change to exploring tax planning strategies.</p>
+                    <a href="#" class="simlearn-more">Learn more <i class='bx bx-chevron-right'></i></a>
+                    <div class="right-arrow">
+                      <img src="img/arrow_right.svg">
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="srvcMain-box">
+                <div class="srvc-icon">
+                    <img src="img/tax-img3.svg">
+                </div>
+                <div class="srvc-detail">
+                    <h4><a href="#">Estate Planning & Taxation</a></h4>
+                    <p> From understanding the latest tax code change to exploring tax planning strategies.</p>
+                    <a href="#" class="simlearn-more">Learn more <i class='bx bx-chevron-right'></i></a>
+                    <div class="right-arrow">
+                      <img src="img/arrow_right.svg">
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="srvcMain-box">
+                <div class="srvc-icon">
+                    <img src="img/tax-img3.svg">
+                </div>
+                <div class="srvc-detail">
+                    <h4><a href="#">Estate Planning & Taxation</a></h4>
+                    <p> From understanding the latest tax code change to exploring tax planning strategies.</p>
+                    <a href="#" class="simlearn-more">Learn more <i class='bx bx-chevron-right'></i></a>
+                    <div class="right-arrow">
+                      <img src="img/arrow_right.svg">
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="srvcMain-box">
+                <div class="srvc-icon">
+                    <img src="img/tax-img3.svg">
+                </div>
+                <div class="srvc-detail">
+                    <h4><a href="#">Estate Planning & Taxation</a></h4>
+                    <p> From understanding the latest tax code change to exploring tax planning strategies.</p>
+                    <a href="#" class="simlearn-more">Learn more <i class='bx bx-chevron-right'></i></a>
+                    <div class="right-arrow">
+                      <img src="img/arrow_right.svg">
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="how-work">
+  <div class="container">
+    <div class="work-title">
+      <h5 class="abt-title">How It Works</h5>
+      <h3>Legal Tax Assistance Tailored To Your Needs</h3>
+    </div>
+    <div class="row">
+      <div class="col-lg-5">
+        <div class="howWork-left">
+          <div class="initial-construction">
+            <div class="left-line"></div>
+            <h4>Initial Consultation</h4>
+            <p>We aim to simplify the intricacies of tax law, making it accessible and relevant to Tax.</p>
+            <div class="initial-img">
+              <img src="img/polygon3.png">
+            </div>
+          </div>
+          <div class="initialGraybg">
+            <div class="left-line"></div>
+            <h4>Initial Consultation</h4>
+            <p>We aim to simplify the intricacies of tax law, making it accessible and relevant to Tax.</p>
+            <div class="initial-img">
+              <img src="img/polygon2.png">
+            </div>
+          </div>
+          <div class="initialGraybg">
+            <div class="left-line"></div>
+            <h4>Initial Consultation</h4>
+            <p>We aim to simplify the intricacies of tax law, making it accessible and relevant to Tax.</p>
+            <div class="initial-img">
+              <img src="img/polygon2.png">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div class="work-rightimg">
+            <div class="row">
+              <div class="col-lg-6">
+                <img src="img/how-work1.png" class="work-img">
+                <img src="img/how-work2.png" class="work-img">
+              </div>
+              <div class="col-lg-6" >
+                <img src="img/how-work3.png" class="work-img2nd">
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="our-team">
+  <div class="container">
+    <div class="work-title">
+      <h5 class="abt-title">Our Team</h5>
+      <h3>Our Expert Tax law Team</h3>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="main-teamBox">
+          <div class="team-img">
+              <img src="img/team-img5.png">
+              <div class="teamSocial-icons">
+                <ul>
+                  <li><a href="#"> <i class='bx bxl-twitter' ></i></a></li>
+                  <li><a href="#"> <i class='bx bxl-linkedin' ></i></a></li>
+                  <li><a href="#"> <i class='bx bxl-instagram-alt' ></i></a></li>
+                  <li><a href="#"> <i class='bx bxl-facebook' ></i></a></li>
+                </ul>
+              </div>
+          </div>
+          <div class="team-content">
+            <h5><a href="#">Alex Fargusion</a></h5>
+            <p> Senior Attorneys
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="main-teamBox">
+          <div class="team-img">
+              <img src="img/team-img6.png">
+              <div class="teamSocial-icons">
+                <ul>
+                  <li><a href="#"> <i class='bx bxl-twitter' ></i></a></li>
+                  <li><a href="#"> <i class='bx bxl-linkedin' ></i></a></li>
+                  <li><a href="#"> <i class='bx bxl-instagram-alt' ></i></a></li>
+                  <li><a href="#"> <i class='bx bxl-facebook' ></i></a></li>
+                </ul>
+              </div>
+          </div>
+          <div class="team-content">
+            <h5><a href="#">Alex Fargusion</a></h5>
+            <p> Senior Attorneys
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="main-teamBox">
+          <div class="team-img">
+              <img src="img/team-img7.png">
+              <div class="teamSocial-icons">
+                <ul>
+                  <li><a href="#"> <i class='bx bxl-twitter' ></i></a></li>
+                  <li><a href="#"> <i class='bx bxl-linkedin' ></i></a></li>
+                  <li><a href="#"> <i class='bx bxl-instagram-alt' ></i></a></li>
+                  <li><a href="#"> <i class='bx bxl-facebook' ></i></a></li>
+                </ul>
+              </div>
+          </div>
+          <div class="team-content">
+            <h5><a href="#">Alex Fargusion</a></h5>
+            <p> Senior Attorneys
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="main-teamBox">
+          <div class="team-img">
+              <img src="img/team-img8.png">
+              <div class="teamSocial-icons">
+                <ul>
+                  <li><a href="#"> <i class='bx bxl-twitter' ></i></a></li>
+                  <li><a href="#"> <i class='bx bxl-linkedin' ></i></a></li>
+                  <li><a href="#"> <i class='bx bxl-instagram-alt' ></i></a></li>
+                  <li><a href="#"> <i class='bx bxl-facebook' ></i></a></li>
+                </ul>
+              </div>
+          </div>
+          <div class="team-content">
+            <h5><a href="#">Alex Fargusion</a></h5>
+            <p> Senior Attorneys
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="latest-blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="mainBlog-box">
+          <div class="blog-img">
+            <img src="img/blog-img1.png">
+            <div class="date-box">
+              <img src="img/date2.png">
+            </div>
+          </div>
+          <div class="blog-content">
+            <div class="blog-titletxt">
+              <div class="blog-nameArea">
+                <p><i class='bx bxs-user' ></i> Henry Nicolls</p>
+              </div>
+              <div class="blogProfession">
+                <p> <i class='bx bxs-purchase-tag'></i>Tax Lawyer</p>
+              </div>
+            </div>
+            <div class="bloglarge-txt">
+              <h3><a href="#">Experience Matters: Your Tax Your & Resolution Starts Here </a></h3>
+              <p> As a small business owner, you're well aware of the numerous financial responsibilities.</p>
+              <a href="#" class="read-morre">read more <i class='bx bx-right-arrow-alt' > </i></a> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="mainBlog-box">
+          <div class="blog-img">
+            <img src="img/blog-img2.png">
+            <div class="date-box">
+              <img src="img/date2.png">
+            </div>
+          </div>
+          <div class="blog-content">
+            <div class="blog-titletxt">
+              <div class="blog-nameArea">
+                <p><i class='bx bxs-user' ></i> Henry Nicolls</p>
+              </div>
+              <div class="blogProfession">
+                <p> <i class='bx bxs-purchase-tag'></i>Tax Lawyer</p>
+              </div>
+            </div>
+            <div class="bloglarge-txt">
+              <h3><a href="#">Experience Matters: Your Tax Your & Resolution Starts Here </a></h3>
+              <p> As a small business owner, you're well aware of the numerous financial responsibilities.</p>
+              <a href="#" class="read-morre">read more <i class='bx bx-right-arrow-alt' > </i></a> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="mainBlog-box">
+          <div class="blog-img">
+            <img src="img/blog-img3.png">
+            <div class="date-box">
+              <img src="img/date2.png">
+            </div>
+          </div>
+          <div class="blog-content">
+            <div class="blog-titletxt">
+              <div class="blog-nameArea">
+                <p><i class='bx bxs-user' ></i> Henry Nicolls</p>
+              </div>
+              <div class="blogProfession">
+                <p> <i class='bx bxs-purchase-tag'></i>Tax Lawyer</p>
+              </div>
+            </div>
+            <div class="bloglarge-txt">
+              <h3><a href="#">Experience Matters: Your Tax Your & Resolution Starts Here </a></h3>
+              <p> As a small business owner, you're well aware of the numerous financial responsibilities.</p>
+              <a href="#" class="read-morre">read more <i class='bx bx-right-arrow-alt' > </i></a> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="blue-btn blog-btn">
+        <a href="#">Read More & Articles  <i class="bx bx-chevron-right"></i></a>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section class="free-consultation">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="schedule-left">
+            <h2> Schedule A Free Consultation</h2>
+            <p>At your firm name, Our experienced tax attorneys are here to help you
+              navigate the complexities of tax law, save you money, & ensure.</p>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="schedule-right">
+            <form class="main-form">
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name">
+                </div>
+                <div class="col-md-6">
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your email address">
+                </div>
+                <div class="col-md-6">
+                  <select class="form-select form-control" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <div class="schedule-btn">
+                    <a href="#">Schedule A Consultation <i class="bx bx-chevron-right"></i></a>
+                </div>
+                </div>
+              </div>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer-sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="footer-logo">
+            <div class="ftr-logoimg">
+                <img src="img/main-logo.png">
+            </div>
+            <div class="ftr-txt">
+              <p>Include any additional information that may be relevant or helpful for visitors, such as FAQs, pricing options.</p>
+            </div>
+            <div class="ftr-socials">
+                <ul>
+                  <li><a href="#"><i class='bx bxl-facebook' ></i></a></li>
+                  <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+                  <li><a href="#"><i class='bx bxl-linkedin-square' ></i></a></li>
+                  <li><a href="#"><i class='bx bxl-instagram' ></i></a></li>
+                </ul>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="ftr-about">
+          <div class="ftrAbt-title">
+            <h4>About</h4>
+          </div>
+          <ul class="ftr-items">
+            <li><a href="#"> Our Blog</a></li>
+            <li><a href="#"> About Us</a></li>
+            <li><a href="#"> Practice Areas</a></li>
+            <li><a href="#"> Testimonials </a></li>
+            <li><a href="#"> Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="ftr-about">
+          <div class="ftrAbt-title">
+            <h4>Get In Touch</h4>
+          </div>
+          <ul class="ftr-items">
+            <li><a href="mailto:demolawsy@gmail.com"><i class='bx bxs-envelope' ></i> demolawsy@gmail.com</a></li>
+            <li><a href="#"><i class='bx bxs-map' ></i> 8708 Technology Forest <br> Pl Suite 125 -G, The <br> Woodlands, TX 77381</a></li>
+            <li><a href="tel:123-456-7890"><i class='bx bx-phone-call' ></i> 123-456-7890</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="newsletter">
+          <div class="ftrAbt-title">
+            <h4>Subscribe Our Newsletter</h4>
+          </div>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email">
+          <div class="blue-btn ftr-mail">
+            <a href="#">Subscribe <i class="bx bx-chevron-right"></i></a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
